@@ -1,0 +1,1 @@
+git2consul --endpoint localhost --port 8500 --config-file git2consul.json

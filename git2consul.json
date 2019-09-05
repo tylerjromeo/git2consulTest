@@ -1,0 +1,18 @@
+{
+    "version": "1.0",
+    "repos" : [{
+      "name" : "sample_configuration",
+      "url" : "https://github.com/tylerjromeo/git2consulTest.git",
+      "branches" : ["master"],
+      "hooks": [{
+        "type" : "polling",
+        "interval" : "1"
+      }],
+      "source_root": "configurations",
+      "include_branch_name": false,
+      "ignore_repo_name": true,
+      "ignore_file_extension": true,
+      "expand_keys": true,
+      "mountpoint": "config"
+    }]
+  }

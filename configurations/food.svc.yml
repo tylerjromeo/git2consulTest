@@ -5,3 +5,4 @@ spring:
     broccoli: ["strawberry", "orange"]
   watermelon:
     seedless: you'd better believe it
+    ripe: totally
