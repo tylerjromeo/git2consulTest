@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    banana: true
+    apple: false
+    broccoli: ["strawberry", "orange"]
+  watermelon:
+    seedless: you'd better believe it
